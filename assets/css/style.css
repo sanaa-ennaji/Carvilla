@@ -107,6 +107,7 @@ html,body{height: 100%;}
     font-size: 36px;
     font-weight: 500;
     padding-bottom: 35px;
+    color: rgb(250, 247, 247);
 }
 .section-header h2:before {
     position: absolute;
@@ -118,7 +119,7 @@ html,body{height: 100%;}
     margin-left: -42px;
     background: #4e4ffa;
 }
-.section-header p{color: #444a57;text-transform: capitalize;margin-bottom:10px;}
+.section-header p{color: #070707;text-transform: capitalize;margin-bottom:10px;}
 .section-header h2 span,.section-header p span{text-transform: lowercase;}
 
 /* section-header */
@@ -453,7 +454,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 /*-------------------------------------       
         8. Clients-say 
 --------------------------------------*/
-.clients-say{padding:115px 0 80px;background: #f8f9fb;}
+.clients-say{padding:115px 0 80px; background: #f8f9fb;}
 
 /*single-testimonial-box */
 .single-testimonial-box  {
@@ -649,6 +650,18 @@ height:200vh;
 .foot-email-box .form-control:hover{
     box-shadow:0 5px 15px rgba(0,0,0,.4);
 }
+.send {
+    background-color: #0b0c0d; 
+    color: #fff; 
+    font-size: 14px; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+
+
+.send:hover {
+    background-color: #0056b3; 
+}
 /*hm-foot-email*/
 /*.footer-copyright */
 .footer-copyright {
@@ -674,6 +687,11 @@ height:200vh;
     transition: .3s;
 }
 .footer-social i:hover{opacity: .70;}
+.video-container {
+    background-color: #fffdfd; 
+        width:100%;
+        height: 50%;
+}
 /*.footer-copyright */
 
 /*===============================
